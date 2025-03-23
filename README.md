@@ -13,7 +13,7 @@ DB_NAME	=>	Nome do banco de dados PostgreSQL.
 DB_PORT	=>	Porta de conexão com o banco de dados PostgreSQL.
 
 
-## FAKE-SHOP-THIAGO1SOUTO
+## FAKESHOP-THIAGO1SOUTO
 
 ![image](https://github.com/user-attachments/assets/0f82411e-238e-4ba9-a352-dc4704917c78)
 
