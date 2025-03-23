@@ -12,6 +12,13 @@ DB_NAME	=>	Nome do banco de dados PostgreSQL.
 
 DB_PORT	=>	Porta de conexão com o banco de dados PostgreSQL.
 
+# DockerHub - Imagem da Aplicação
+
+A imagem do contêiner foi publicada no DockerHub e pode ser acessada através do seguinte link:
+
+🔗 [Link da imagem no DockerHub](https://hub.docker.com/repository/docker/thiago1souto/fake-shop)
+                              
+...
 
 ## FAKESHOP-THIAGO1SOUTO
 
