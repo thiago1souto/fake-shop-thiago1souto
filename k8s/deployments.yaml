@@ -36,7 +36,6 @@ spec:
   selector:
     app: postgre
         
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -51,6 +50,10 @@ spec:
       labels:
         app: fakeshop
     spec:
+      initContainers:
+      - name: wait-for-db
+        image: busybox
+        command: ['sh', '-c', 'until nc -z postgre 5432; do sleep 15; done']            
       containers:
       - name: fakeshop
         image: thiago1souto/fake-shop:v1.1.0
