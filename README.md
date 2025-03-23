@@ -17,3 +17,9 @@ DB_PORT	=>	Porta de conexão com o banco de dados PostgreSQL.
 
 ![image](https://github.com/user-attachments/assets/04eada9f-2e69-439e-80ec-aa49177fa7cc)
 
+
+## Acessando o DB da aplicação pelo DBeaver via port-forward
+
+![image](https://github.com/user-attachments/assets/73f6d28a-f7ea-42ba-8e63-86ea8d6aa087)
+
+
