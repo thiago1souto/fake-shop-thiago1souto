@@ -49,6 +49,7 @@ spec:
     metadata:
       labels:
         app: fakeshop
+    ##Aguardar o DB estar no OK        
     spec:
       initContainers:
       - name: wait-for-db
