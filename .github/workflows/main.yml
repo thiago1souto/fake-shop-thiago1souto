@@ -23,6 +23,7 @@ jobs:
           push: true
           file: ./src/Dockerfile
           tags: thiago1souto/fake-shop:v${{ github.run_number }}
+          # Tag versionanda
           #tags: thiago1souto/fake-shop:v1.1.0
                
       
